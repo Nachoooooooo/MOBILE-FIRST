@@ -1,0 +1,121 @@
+header {
+    background-color: rgb(14, 127, 165);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: left;
+}
+
+#hero {
+    background-color: rgb(165, 14, 14);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: left;
+}
+
+#content {
+    background-color: rgb(14, 165, 17);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: left;
+}
+
+aside {
+    background-color: rgb(117, 14, 165);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: left;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: left;
+}
+
+body {
+    font-family: Arial;
+    margin: 1;
+}
+
+/*
+  
+  @media (min-width: 550px){
+    .agrupacion {
+        display: flex;
+        gap: .1em;
+        margin: 0 .8em;
+    }
+    .content, .aside {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1100px){
+    .agrupacion {
+        margin: 0 4.5em;
+    }
+}
+
+/*
+
+
+
+/* For mobile phones:
+[class*="cagrupacion"] {
+    width: 100%;
+}
+ */
+
+@media only screen and (min-width: 550px) {
+
+    /* For tablets: */
+    header {
+        width: 100%;
+    }
+
+    #hero {
+        width: 40%;
+    }
+
+    #content {
+        width: 30%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+
+    /* For desktop: */
+    header {
+        width: 100%;
+    }
+
+    #hero {
+        width: 100%;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
